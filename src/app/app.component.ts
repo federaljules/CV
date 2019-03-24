@@ -10,7 +10,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 })
 export class AppComponent {
 
-  public appPage = [
+  public appPage = [        /**Here I create objects to left side navigation */
     {
       title: 'About',
       url: '',
