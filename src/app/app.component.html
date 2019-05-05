@@ -6,10 +6,10 @@
           <ion-title>Navigation</ion-title>
         </ion-toolbar>
       </ion-header>
-      <ion-content padding>
-        <ion-list>
+      <ion-content padding color="dark">
+        <ion-list style="background:transparent;" color="dark">
           <ion-menu-toggle *ngFor="let p of appPage">
-            <ion-item [routerLink]="p.url" [routerDirection]="'root'"> <!-- Here I get tab name, url and icon from app.component.ts-->
+            <ion-item color="dark" [routerLink]="p.url" [routerDirection]="'root'"> <!-- Here I get tab name, url and icon from app.component.ts for navigation bar-->
               <ion-icon slot="start" [name]="p.icon"></ion-icon>
               <ion-label>{{p.title}}</ion-label>
               

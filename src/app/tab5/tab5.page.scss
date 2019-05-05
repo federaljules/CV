@@ -1,13 +1,23 @@
-.item-avatar  {     
-    width:100% !important;  
-    height : 100% !important;  
-    max-width: 350px !important;  //any size
-    max-height: 350px !important; 
-    margin: auto; 
-    margin-top: 10px;
-    }
 
     a{
         color: black!important;
         align-content: center;
+    }
+
+    p{
+        display:inline-block;
+        font-weight: bold;
+        text-align: left;
+        padding-top: 2%;
+        position: absolute;
+        
+    }
+    ion-icon{
+        font-size: 32px!important;
+        display:inline-block;
+        color: #FF6F61!important;
+    }
+    h2{
+        text-align: center;
+        font-style: italic;
     }

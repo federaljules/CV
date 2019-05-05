@@ -1,5 +1,27 @@
-p{
+.name p{
+
     font-size: 13pt;
-    font-weight: bold;
-    text-align: center;
+    text-align: left;
+    padding: 10px;
+    margin: 0%;
+    color: white;
+    font-family: 'Scope One', serif;
 }
+
+ion-content{
+    --background: url(../../assets/img/me.png) no-repeat center center /cover;
+
+
+}
+
+
+
+.name h1{
+
+    font-family: 'Scope One', serif;
+color: white;
+text-align: right;
+font-size: 40pt;
+margin-top: 63%;
+margin-right: 9%;
+  }

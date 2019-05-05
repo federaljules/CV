@@ -8,6 +8,7 @@ import { TabsPageRoutingModule } from './tabs.router.module';
 import { TabsPage } from './tabs.page';
 
 @NgModule({
+  
   imports: [
     IonicModule,
     CommonModule,
@@ -16,4 +17,9 @@ import { TabsPage } from './tabs.page';
   ],
   declarations: [TabsPage]
 })
-export class TabsPageModule {}
+
+
+
+export class TabsPageModule {
+  
+}

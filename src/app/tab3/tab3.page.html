@@ -1,70 +1,49 @@
 <ion-header>
-  <ion-toolbar color="dark">
+  <ion-toolbar color="light">
       <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      Curriculum Vitae
+      Technical skills
     </ion-title>
+    <ion-icon class="logout" color="danger" slot="end" size="large" name="log-out" (click)="signOut()"></ion-icon>
+
   </ion-toolbar>
 </ion-header>
 
-<ion-content color="dark">
-  <ion-card color="light">
-    <ion-card-header><h3><ion-icon name="globe"></ion-icon> &nbsp;Language skills</h3></ion-card-header> <!-- Here I create Language Skills card-->
-    <ion-item-divider></ion-item-divider>
-    <ion-card-content><p>Finnish</p>Native speaker
-        </ion-card-content>
-        
-        <ion-card-content><p>English</p>Great
-        </ion-card-content>
+<ion-content>
 
-        <ion-card-content><p>Swedish</p>Basics
-        </ion-card-content>
-  </ion-card>
-
-  <ion-card color="light">
-      <ion-card-header><h3><ion-icon name="laptop"></ion-icon> &nbsp;IT Skills</h3></ion-card-header> <!-- Here I create IT Skills card-->
-      <ion-item-divider ></ion-item-divider>
-      
-      <ion-card-content><p>Adobe Photoshop</p>Great
+  <ion-card >
+      <ion-card-header><h2><ion-icon name="code-working"></ion-icon> &nbsp;Technical skills</h2></ion-card-header> <!-- Here I create Technical skills card-->
+       
+      <ion-card-content style="padding-top:12px;"><img src="../../assets/img/ps_ico.png" style="display:inline-block; width:10%;"><p>Adobe Photoshop</p>
       </ion-card-content>
 
-      <ion-card-content><p>Adobe Illustrator</p>Good
+      <ion-card-content><img src="../../assets/img/illu_ico.png" style="display:inline-block; width:10%;"><p>Adobe Illustrator</p>
       </ion-card-content>
 
-      <ion-card-content><p>Microsoft Word</p>Good
+      <ion-card-content><img src="../../assets/img/vscode_ico.png" style="display:inline-block; width:10%;"><p>Visual Studio Code</p>
       </ion-card-content>
 
-      <ion-card-content><p>Microsoft Excel</p>Basics
+      <ion-card-content><img src="../../assets/img/blender_ico.png" style="display:inline-block; width:10%;"><p>Blender</p>
       </ion-card-content>
 
-      <ion-card-content><p>Visual Studio Code</p>Good
+      <ion-card-content><img src="../../assets/img/java_ico.png" style="display:inline-block; width:10%;"><p>Java</p>
       </ion-card-content>
 
-      <ion-card-content><p>Blender</p>Basics
+      <ion-card-content><img src="../../assets/img/js_ico.png" style="display:inline-block; width:10%;"><p>JavaScript</p>
       </ion-card-content>
 
-      <ion-card-content><p>Java</p>Basics
+      <ion-card-content><img src="../../assets/img/mysql.png" style="display:inline-block; width:10%;"><p>MySQL</p>
       </ion-card-content>
 
-      <ion-card-content><p>JavaScript</p>Basics
+      <ion-card-content><img src="../../assets/img/html_ico.png" style="display:inline-block; width:10%;"><p>HTML</p>
       </ion-card-content>
 
-      <ion-card-content><p>PHP</p>Basics
+      <ion-card-content><img src="../../assets/img/css_ico.png" style="display:inline-block; width:10%;"><p>CSS</p>
       </ion-card-content>
 
-
-      <ion-card-content><p>MySQL</p>Basics
-      </ion-card-content>
-
-      <ion-card-content><p>HTML</p>Good
-      </ion-card-content>
-
-      <ion-card-content><p>CSS</p>Good
-      </ion-card-content>
-
-      <ion-card-content><p>Ionic Framework</p>Basics
+      <ion-card-content><img src="../../assets/img/ionic_ico.png" style="display:inline-block; width:10%;"><p>Ionic 4 Framework</p>
       </ion-card-content>
 
 
